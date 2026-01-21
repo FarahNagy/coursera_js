@@ -52,3 +52,24 @@ let isAuthenticated = true;
 
 let authenticationStatus = isAuthenticated? 'Authenticated' : 'Not authenticated';
 console.log("Authentication Status:", authenticationStatus);
+
+let access;
+let role = 'Enrolled Member';
+
+switch (role){
+    case 'Employee':
+        access = 'Dietary Access';
+        break;
+    case 'Enrolled Member':
+        access = 'Dietary Services and one-on-one interaction with a dietician';
+        break;
+    case 'Subscriber':
+        access = 'partail access to facilitate Dietary Services';
+        break;
+    default:
+        access = 'You need to enroll or at least subscribe first to avail this facility.';
+        break;
+    
+}
+
+console.log("services user is eligible to avail: ", access);
