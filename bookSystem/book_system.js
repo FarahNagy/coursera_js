@@ -39,9 +39,8 @@ function showbooks() {
     document.getElementById('books').innerHTML = booksDisplay;
 }
 
-function deletebook(index)
-{
-    books.splice(index,1);
+function deletebook(index) {
+    books.splice(index, 1);
     showbooks();
 }
 function editbook(index) {
@@ -54,9 +53,8 @@ function editbook(index) {
     showbooks(); // Refresh list
 }
 
-function clearInputs()
-{
-        document.getElementById('bookName').value = '';
+function clearInputs() {
+    document.getElementById('bookName').value = '';
     document.getElementById('authorName').value = '';
     document.getElementById('bookDescription').value = '';
     document.getElementById('pagesNumber').value = '';
