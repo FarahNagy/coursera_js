@@ -1,0 +1,40 @@
+{
+  "news_articles": [
+    {
+      "title": "Egypt Launches New Renewable Energy Project",
+      "description": "The Egyptian government has announced a new solar and wind energy project aimed at reducing carbon emissions and supporting sustainable development.",
+      "author": "Daily News Egypt",
+      "published_date": "2026-02-10",
+      "categories": ["Environment", "Energy"],
+      "highlights": [
+        "Project will generate clean energy for over 1 million homes",
+        "Supports Egypt Vision 2030",
+        "Creates thousands of new jobs"
+      ]
+    },
+    {
+      "title": "Tech Startups Thrive in Cairo",
+      "description": "Cairo’s startup ecosystem continues to grow as more young entrepreneurs enter the tech industry with innovative solutions.",
+      "author": "Tech Arabia",
+      "published_date": "2026-02-12",
+      "categories": ["Technology", "Business"],
+      "highlights": [
+        "Increase in venture capital funding",
+        "Strong support from incubators and accelerators",
+        "Growing regional influence"
+      ]
+    },
+    {
+      "title": "New Cultural Festival Celebrates Egyptian Heritage",
+      "description": "A week-long cultural festival is set to take place in downtown Cairo, celebrating Egyptian art, music, and food.",
+      "author": "Cairo Culture",
+      "published_date": "2026-02-15",
+      "categories": ["Culture", "Events"],
+      "highlights": [
+        "Live music and art exhibitions",
+        "Traditional Egyptian cuisine",
+        "Open to the public for free"
+      ]
+    }
+  ]
+}
